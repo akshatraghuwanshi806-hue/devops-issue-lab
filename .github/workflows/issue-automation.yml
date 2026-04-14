@@ -18,3 +18,4 @@ jobs:
       - name: When Issue is Closed
         if: github.event.action == 'closed'
         run: echo "An issue was closed"
+
